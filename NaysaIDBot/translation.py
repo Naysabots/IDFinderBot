@@ -1,4 +1,4 @@
-class Translation(object):
+
 
     START_TEXT = """
 Hey {},\n
@@ -91,3 +91,5 @@ Made With 💕 By @NaysaBots\n
         InlineKeyboardButton('⛔ Close', callback_data='close')
         ]]
     )
+class Translation(object):
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
