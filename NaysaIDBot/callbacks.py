@@ -2,7 +2,7 @@ import os
 
 
 
-from translation import Translation
+from NaysaIDBot.translation import Translation
 from pyrogram import Client as Bot
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
