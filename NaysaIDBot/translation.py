@@ -3,23 +3,20 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-Hey {}\n
-I am Telegram Simple Bot For Finding IDs\n
-Just Forward Me Any Message To Get ID\n
-Use Help Command to Know How to Use me\n
-Made With 💕 By @NaysaBots\n
+✮ Hey {}\n
+✮ I am Telegram Simple Bot For Finding IDs\n
+✮ Use Help Command to Know How to Use me\n
+✮ Made With 💕 By @NaysaBots\n
 """
 
     HELP_TEXT = """
-
-   ✮ Forward A Message From Any Group To Get Group ID
+  ✮ Forward A Message From Any Group To Get Group ID
 
   ✮ Forward Me A Message From Any Channel To Get Channel ID
 
   ✮ Sent /ID To Get Telegram ID
 
   ✮ Click /Info To  Get Telegram INFO
-
 """
 
     ABOUT_TEXT = """
