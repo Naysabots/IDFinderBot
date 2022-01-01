@@ -93,3 +93,4 @@ Made With 💕 By @NaysaBots\n
     )
 class Translation(object):
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+class Translation(object):
