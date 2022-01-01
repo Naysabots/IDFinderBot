@@ -4,8 +4,8 @@ class Translation(object):
 
     START_TEXT = """
 ✮ Hey {} ✮\n
-✮ I am Telegram Simple Bot For Finding IDs ✮\n
-✮ Use Help Command to Know How to Use me ✮\n
+I am Telegram Simple Bot For Finding IDs\n
+Use Help Command to Know How to Use me\n
 ✮ Made With 💕 By @NaysaBots ✮\n
 """
 
