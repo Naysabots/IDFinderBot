@@ -19,9 +19,6 @@ Made With 💕 By @NaysaBots\n
 
   ✮ Click /Info To  Get Telegram INFO
 
-  ✮ If You Give Reply /Json To Any [message, files, Media, Stickers] You Will Be Get Json File Of Those Files
-  
-  ✮ If You Need To Get an I'd Of a Sticker Packs Just Send and Reply With /stickerid Command To Get Sticker Id.
 """
 
     ABOUT_TEXT = """
