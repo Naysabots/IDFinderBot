@@ -57,12 +57,12 @@ async def info(bot, message):
         else:
             text = f"Forward Information\n\n"
             if message.forward_from_chat["type"] == "channel":
-                text += "📢 Channel"
+                text += "📡 Forwarded From Channel"
             if message.forward_from_chat["type"] == "supergroup":
                 text += "💬 Group"
-            text += f'\n\n📃 Name {message.forward_from_chat["title"]}'
+            text += f'\n\n📃 Name : `{message.forward_from_chat["title"]}`'
             if message.forward_from_chat["username"]:
-                text += f'\n\n➡️ From : @{message.forward_from_chat["username"]}'
+                text += f'\n\n📩 From : @{message.forward_from_chat["username"]}'
                 text += f'\n\n🆔 ID : `{message.forward_from_chat["id"]}`'
             else:
                 text += f'\n\n🆔 ID `{message.forward_from_chat["id"]}`\n\n'
