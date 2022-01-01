@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram import Client as NaysaBots
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.errors import UserNotParticipant
-from NaysaIDBot.Translation import Translation
+from NaysaIDBot.translation import Translation
 from NaysaIDBot.config import Config
 
 
