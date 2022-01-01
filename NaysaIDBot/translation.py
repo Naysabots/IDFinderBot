@@ -12,7 +12,7 @@ Made With 💕 By @NaysaBots\n
 
     HELP_TEXT = """
 
-  ✮ Forward A Message From Any Group To Get Group ID
+   ✮ Forward A Message From Any Group To Get Group ID
 
   ✮ Forward Me A Message From Any Channel To Get Channel ID
 
