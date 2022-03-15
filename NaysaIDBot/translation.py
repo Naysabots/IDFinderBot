@@ -3,20 +3,20 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-✮ Hey {} ✮\n\n
-I am Telegram Simple Bot For Finding IDs\n\n
-Use Help Command to Know How to Use me\n\n
-✮ Made With 💕 By @TellyBots ✮\n\n
+✮ Hey {} ✮\n
+I am Telegram Simple Bot For Finding IDs\n
+Use Help Command to Know How to Use me\n
+✮ Made With 💕 By @TellyBots ✮\n
 """
 
     HELP_TEXT = """
-  ✮ Forward A Message From Any Group To Get Group ID ✮\n
+  ✮ Forward A Message From Any Group To Get Group ID
 
-  ✮ Forward Me A Message From Any Channel To Get Channel ID ✮\n
+  ✮ Forward Me A Message From Any Channel To Get Channel ID
 
-  ✮ Sent /ID To Get Telegram ID ✮\n
+  ✮ Sent /ID To Get Telegram ID
 
-  ✮ Click /Info To  Get Telegram INFO ✮\n
+  ✮ Click /Info To  Get Telegram INFO 
 """
 
     ABOUT_TEXT = """
@@ -67,25 +67,25 @@ Use Help Command to Know How to Use me\n\n
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Update Channel', url='https://telegram.me/tellybots'),
-        InlineKeyboardButton('Support Group', url='https://telegram.me/tellybots_support')
+        InlineKeyboardButton('🛡️ Update', url='https://telegram.me/tellybots'),
+        InlineKeyboardButton('🔰 Support', url='https://telegram.me/tellybots_support')
         ],[
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('❔ Help', callback_data='help'),
+        InlineKeyboardButton('♨️ Close', callback_data='close')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('About', callback_data='about'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🏡 Home', callback_data='home'),
+        InlineKeyboardButton('👨‍🚒 About', callback_data='about'),
+        InlineKeyboardButton('♨️ Close', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🏡 Home', callback_data='home'),
+        InlineKeyboardButton('❔ Help', callback_data='help'),
+        InlineKeyboardButton('♨️ Close', callback_data='close')
         ]]
     )
 
