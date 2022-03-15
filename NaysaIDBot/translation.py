@@ -3,30 +3,30 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-✮ Hey {} ✮\n
-I am Telegram Simple Bot For Finding IDs\n
-Use Help Command to Know How to Use me\n
-✮ Made With 💕 By @NaysaBots ✮\n
+✮ Hey {} ✮\n\n
+I am Telegram Simple Bot For Finding IDs\n\n
+Use Help Command to Know How to Use me\n\n
+✮ Made With 💕 By @TellyBots ✮\n\n
 """
 
     HELP_TEXT = """
-  ✮ Forward A Message From Any Group To Get Group ID ✮
+  ✮ Forward A Message From Any Group To Get Group ID ✮\n
 
-  ✮ Forward Me A Message From Any Channel To Get Channel ID ✮
+  ✮ Forward Me A Message From Any Channel To Get Channel ID ✮\n
 
-  ✮ Sent /ID To Get Telegram ID ✮
+  ✮ Sent /ID To Get Telegram ID ✮\n
 
-  ✮ Click /Info To  Get Telegram INFO ✮
+  ✮ Click /Info To  Get Telegram INFO ✮\n
 """
 
     ABOUT_TEXT = """
-🤖 My Name : <a href='https://t.me/{}'>NaysaIDFinderBot</a> 
+🤖 My Name : <a href='https://t.me/{}'>NaysaIDFinderBot</a>\n
   
-📝 Language : <a href='https://www.python.org/'>Python3</a>
+📝 Language : <a href='https://www.python.org/'>Python3</a>\n
 
-📑 Library : <a href='https://github.com/pyrogram/pyrogram'>Pyrogram</a>
+📑 Library : <a href='https://github.com/pyrogram/pyrogram'>Pyrogram</a>\n
 
-🚴‍♂️ Developer : <a href='t.me/{}'>@Tellybots_4u</a>
+🚴‍♂️ Developer : <a href='t.me/{}'>@Tellybots</a>\n
 
 """
 
@@ -67,7 +67,7 @@ Use Help Command to Know How to Use me\n
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Update Channel', url='https://telegram.me/tellybots_4u'),
+        InlineKeyboardButton('Update Channel', url='https://telegram.me/tellybots'),
         InlineKeyboardButton('Support Group', url='https://telegram.me/tellybots_support')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
