@@ -1,0 +1,19 @@
+services:
+  # A Docker web service
+  - type: web
+    name: webdis
+    env: docker
+    repo: https://github.com/render-examples/webdis.git # optional
+    region: oregon # optional (defaults to oregon)
+    plan: standard # optional (defaults to starter)
+    branch: master # optional (uses repo default)
+    dockerCommand: ./webdis.sh # optional (defaults to Dockerfile command)
+    numInstances: 3 # optional (defaults to 1)
+    healthCheckPath: /
+    envVars:
+      - key: API_HASH
+        value: 2
+      - key: API_ID
+        generateValue: true
+      - key: BOT_TOKEN
+        sync: false
